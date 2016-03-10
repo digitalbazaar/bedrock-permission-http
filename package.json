@@ -1,0 +1,33 @@
+{
+  "name": "bedrock-permission-http",
+  "version": "1.0.1-dev",
+  "description": "A HTTP API for bedrock-permission",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-permission-http.git"
+  },
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "http://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-permission-http/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-permission-http",
+  "dependencies": {
+    "async": "^1.4.2",
+    "lodash": "^4.1.0"
+  },
+  "peerDependencies": {
+    "bedrock": "^1.0.6",
+    "bedrock-express": "^2.0.1",
+    "bedrock-mongodb": "^2.0.0",
+    "bedrock-permission": "^2.0.0",
+    "bedrock-validation": "^2.0.0"
+  }
+}
