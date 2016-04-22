@@ -23,22 +23,28 @@ var postRole = {
 };
 
 var patchRole = {
-  type: 'object',
-  properties: {
-    id: schemas.identifier(),
-    comment: schemas.description({required: false}),
-    label: schemas.label({required: false}),
-    sysPermission: {
-      type: 'array',
-      required: true,
-      minItems: 1,
-      uniqueItems: true,
-      items: {
-        type: 'string'
+  type: 'array',
+  items: {
+    type: 'object',
+    properties: {
+      op: {type: 'string', required: true},
+      changes: {
+        id: schemas.identifier(),
+        comment: schemas.description({required: false}),
+        label: schemas.label({required: false}),
+        sysPermission: {
+          type: 'array',
+          required: true,
+          minItems: 1,
+          uniqueItems: true,
+          items: {
+            type: 'string'
+          }
+        }
       }
-    }
-  },
-  additionalProperties: false
+    },
+    additionalProperties: false
+  }
 };
 
 module.exports.postRole = function() {

@@ -27,6 +27,7 @@
     "bedrock": "^1.0.6",
     "bedrock-express": "^2.0.1",
     "bedrock-mongodb": "^2.0.0",
+    "bedrock-passport": "^3.0.0",
     "bedrock-permission": "^2.0.0",
     "bedrock-validation": "^2.0.0"
   }
