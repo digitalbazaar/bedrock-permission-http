@@ -24,6 +24,9 @@ var postRole = {
 
 var patchRole = {
   type: 'array',
+  required: true,
+  minItems: 1,
+  maxItems: 1,
   items: {
     type: 'object',
     properties: {

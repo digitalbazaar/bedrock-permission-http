@@ -1,7 +1,7 @@
 {
   "name": "bedrock-permission-http",
-  "version": "1.0.1-dev",
-  "description": "A HTTP API for bedrock-permission",
+  "version": "0.0.1-dev",
+  "description": "An HTTP API for bedrock-permission",
   "main": "./lib/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,7 +28,7 @@
     "bedrock-express": "^2.0.1",
     "bedrock-mongodb": "^2.0.0",
     "bedrock-passport": "^3.0.0",
-    "bedrock-permission": "^2.0.0",
+    "bedrock-permission": "^2.2.0",
     "bedrock-validation": "^2.0.0"
   }
 }
