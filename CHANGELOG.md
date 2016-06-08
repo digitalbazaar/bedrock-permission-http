@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+### Changed
+- Update dependencies.
+
 ## 1.0.1 - 2016-05-03
 
 ### Fixed
