@@ -2,10 +2,8 @@
   "name": "bedrock-permission-http",
   "version": "1.0.3-dev",
   "description": "An HTTP API for bedrock-permission",
-  "main": "./lib/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "./lib",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalbazaar/bedrock-permission-http.git"
