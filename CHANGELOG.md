@@ -1,6 +1,9 @@
 # bedrock-permission-http ChangeLog
 
-## Unreleased
+## 1.0.3 - 2016-11-28
+
+### Fixed
+- Fix the DELETE API.
 
 ## 1.0.2 - 2016-06-07
 
