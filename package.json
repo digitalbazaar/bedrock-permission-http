@@ -17,10 +17,6 @@
     "url": "https://github.com/digitalbazaar/bedrock-permission-http/issues"
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-permission-http",
-  "dependencies": {
-    "async": "^1.4.2",
-    "lodash": "^4.1.0"
-  },
   "peerDependencies": {
     "bedrock": "^1.0.6",
     "bedrock-express": "^2.0.3",
