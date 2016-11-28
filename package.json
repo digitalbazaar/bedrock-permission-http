@@ -1,6 +1,6 @@
 {
   "name": "bedrock-permission-http",
-  "version": "1.0.3-dev",
+  "version": "1.0.3",
   "description": "An HTTP API for bedrock-permission",
   "main": "./lib",
   "scripts": {},
