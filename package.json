@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-permission-http",
   "peerDependencies": {
-    "bedrock": "^3.1.1",
-    "bedrock-express": "^3.2.0",
-    "bedrock-mongodb": "^7.0.0",
-    "bedrock-passport": "^5.0.2",
-    "bedrock-permission": "^3.0.0",
-    "bedrock-validation": "^4.4.0"
+    "bedrock": "2.x - 3.x",
+    "bedrock-express": "2.x - 3.x",
+    "bedrock-mongodb": "6.x - 7.x",
+    "bedrock-passport": "4.x - 5.x",
+    "bedrock-permission": "2.x - 3.x",
+    "bedrock-validation": "3.x - 4.x"
   }
 }
