@@ -20,7 +20,7 @@
   "peerDependencies": {
     "bedrock": "^1.0.6",
     "bedrock-express": "^2.0.3",
-    "bedrock-mongodb": "^3.0.0",
+    "bedrock-mongodb": "3.x - 7.x",
     "bedrock-passport": "^3.0.0",
     "bedrock-permission": "2.x - 3.x",
     "bedrock-validation": "^2.0.0"
