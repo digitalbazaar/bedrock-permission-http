@@ -1,9 +1,11 @@
 /*
  * Copyright (c) 2016 Digital Bazaar, Inc. All rights reserved.
  */
-var schemas = require('bedrock-validation').schemas;
+'use strict';
 
-var postRole = {
+const schemas = require('bedrock-validation').schemas;
+
+const postRole = {
   type: 'object',
   properties: {
     comment: schemas.description({required: false}),
@@ -21,7 +23,7 @@ var postRole = {
   additionalProperties: false
 };
 
-var patchRole = {
+const patchRole = {
   type: 'array',
   required: true,
   minItems: 1,
