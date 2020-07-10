@@ -1,5 +1,10 @@
 # bedrock-permission-http ChangeLog
 
+## 1.1.0 - 2020-07-10
+
+## Changed
+- Update peer dependencies.
+
 ## 1.0.3 - 2016-11-28
 
 ### Fixed
